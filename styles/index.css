@@ -1,6 +1,6 @@
 /* to select IDs, . to select classes */
 body{
-    font-family: Impact,Arial Narrow Bold;
+    font-family: roboto
     background-color: black;
     color:burlywood
 }
@@ -15,4 +15,15 @@ header {
     justify-content: space-between;
     gap: 8px;
     padding: 16px;
+}
+header div nav ul li {
+    align-items: flex;
+    justify-content: space-between;
+    gap: 8px;
+    list-style: none;
+    flex-direction: row;
+    display: inline;
+
+
+
 }
